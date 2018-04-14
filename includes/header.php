@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
-<body>
+<body class=>
+    <header class="portada">
+        <section class="header ed-container">
+            <div class="ed-container ed-item s-30 header-logo">
+                <div class="ed-item s-20 header-logo-img cross-center">
+                    <img src="https://images.vexels.com/media/users/3/129225/isolated/preview/2c7db2346ed86a6a94bcb917296b6586-ancla-icono-de-la-silueta-by-vexels.png" alt="Logo AuPairKids">
+                </div>
+                <div class="ed-item s-80 header-logo-text">
+                    <p>Marisqueria</p>        
+                </div>
+            </div>
+            <nav class="ed-item s-70 header-nav cross-center">
+                <?php 
+                    include "nav.php"
+                ?>
+            </nav>
+        </section>
+        <section class="ed-container banner">
+            <div class="ed-item main-center banner-title">
+                <h2>Lorem, ipsum.</h2>
+            </div>
+            <div class="ed-item s-80 main-center banner-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe ab deleniti libero vel atque sit, at architecto animi? In, consectetur vero atque eos aliquam architecto laudantium ea laborum corporis.</p>
+                <button>lorem</button>
+            </div>
+        </section>
+
+
+    </header>
     
     
