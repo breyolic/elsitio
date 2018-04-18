@@ -1,7 +1,7 @@
 .portada{
     height: 800px;
-    background-image: url(https://images.pexels.com/photos/8758/food-dinner-lemon-rice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    /* background-image: url(https://images.pexels.com/photos/629093/pexels-photo-629093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    /* background-image: url(https://images.pexels.com/photos/8758/food-dinner-lemon-rice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    background-image: url(https://images.pexels.com/photos/629093/pexels-photo-629093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
 }

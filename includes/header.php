@@ -31,7 +31,7 @@
             </div>
             <div class="ed-item s-80 main-center banner-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe ab deleniti libero vel atque sit, at architecto animi? In, consectetur vero atque eos aliquam architecto laudantium ea laborum corporis.</p>
-                <button>lorem</button>
+                <button>Book your table</button>
             </div>
         </section>
 
