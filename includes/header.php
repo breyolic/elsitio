@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Raleway:700|Source+Sans+Pro" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/ed-grid.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
