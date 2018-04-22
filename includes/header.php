@@ -27,12 +27,14 @@
             </nav>
         </section>
         <section class="ed-container banner">
-            <div class="ed-item main-center banner-title">
-                <h2>Lorem, ipsum.</h2>
+            <div class="ed-item main-center banner-title title">
+                <h2>Delicious Food</h2>
             </div>
-            <div class="ed-item s-80 main-center banner-text">
+            <div class="ed-item s-80 main-center banner-text text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe ab deleniti libero vel atque sit, at architecto animi? In, consectetur vero atque eos aliquam architecto laudantium ea laborum corporis.</p>
-                <button>Book your table</button>
+            </div>
+            <div class="ed-item button1 main-center banner-button">
+                <a href="#">Book your table</a>
             </div>
         </section>
 

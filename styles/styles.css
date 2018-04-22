@@ -6,6 +6,7 @@
     --color-title      :rgb(211, 41, 49);
     --color-subtitle   :rgb(25, 27, 29);
     --color-text      :rgb(119, 119, 119);
+    --color-white       : rgb(255,255,255);
 
 }
 /*
@@ -48,6 +49,7 @@
     /* background: transparent; */
     /* color: var(--color-title); */
     /* border: 1px solid var(--color-title); */
+    padding-bottom: 1em;
 }
 
 .button1 a{
@@ -61,6 +63,7 @@
     font-size: 0.8125em;
     letter-spacing: 1px;
     border-radius: 2px;
+    /* padding-bottom: 1em; */
 }
 
 .button1 a:hover{
@@ -75,6 +78,11 @@
     /* line-height: 3em; */
     font-size: 2.125em;
     font-family: var(--font-text);
+}
+.price2{
+    color: inherit;
+    font-family: var(--font-text);
+    font-size: 1.625em;
 }
 /*
 *******************************
@@ -94,7 +102,6 @@ Archivo header.php
     background-image: url(https://images.pexels.com/photos/629093/pexels-photo-629093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5em;
 }
 
 .header{
@@ -148,31 +155,31 @@ Archivo header.php
 }
 
 .banner{
-    margin-top: calc(400px - 12em);
+    margin-top: calc(400px - 18em);
     color: white;
-    text-shadow: 1px 1px 2px #000;
+    /* text-shadow: 1px 1px 2px #000; */
 }
 
 .banner-title{
-    font-size: 2em;
+    color: white;
 }
 
 .banner-text{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+.banner-text p{
+    color: white;
+    font-style: italic;
+}
+.banner-button a{
+    color: white;
+    border: none;
 }
 
-.banner-text button{
-    background-color: rgba(0, 0, 0, .1);;
-    border: 2px solid white;
-    padding: 1em 1.5em;
-    color: white;
-    text-shadow: 1px 1px 2px #000;
-    font-weight: 500;
-    
-}
+
 
 /*
 *******************************
@@ -190,7 +197,8 @@ About
 ********************************
 */
 .about{
-    margin-bottom: 5em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
 .about-data-title{
@@ -214,7 +222,9 @@ Special Dishes
 ********************************
 */
 .dishes{
+    padding-top: 5em;
     padding-bottom: 5em;
+    background-color: #F9F9F9;
 }
 .dishes-fig-1{
     /* width: 300px;
@@ -249,7 +259,8 @@ Speciality
 ********************************
 */
 .speciality{
-    margin-bottom: 5em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 .speciality-subtitle{
     font-size: 2.125em;
@@ -261,4 +272,316 @@ Speciality
 }
 .speciality-feature-text{
     text-align: center;
+}
+
+/*
+*******************************
+Discover
+********************************
+*/
+.discover{
+    padding-bottom: 5em;
+    padding-top: 5em;
+    background-color: #F9F9F9;
+    background-size: cover;
+
+}
+
+.discover-subtitle{
+    font-size: 2.125em;
+    text-transform: uppercase;
+}
+
+.discover-subtitle p{
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.discover-box{
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+    margin-bottom: 1em;
+    color: var(--color-text);
+}
+
+.discover-box-text1{
+    letter-spacing: 1px;
+    font-family: var(--font-subtitle);
+    color: inherit;
+}
+.discover-box-text2{
+    color: initial;
+    font-family: var(--font-text);
+    font-size: .9em;
+}
+.discover-box:hover{
+    background-color: var(--color-title);
+    color: white;
+    transition: .1s;
+}
+.discover-box:hover .discover-box-text2{
+    background-color: var(--color-title);
+    color: white;
+    transition: .1s;
+}
+
+/*
+*******************************
+Parallax
+********************************
+*/
+.parallax{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax-subtitle, .parallax-icono, .parallax-text, .parallax-title{
+    color: white;
+}
+.parallax-text{
+    text-align: center;
+    font-size: .875em;
+}
+.parallax-button a{
+    color: white;
+    border: 1px solid var(--color-white);
+}
+/*
+*******************************
+Chef
+********************************
+*/
+.chef{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.chef-subtitle{
+    font-size: 2.125em;
+    text-transform: uppercase;
+}
+
+.chef-subtitle p{
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+.chef-box{
+    /* border : 1px solid red; */
+    position: relative;
+}
+.chef-box-name{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    padding: .5em .7em;
+    background-color: var(--color-title);
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--font-subtitle);
+}
+.chef-box-position{
+    position: absolute;
+    top: calc(65% + 3.4em);
+    left: calc(40% + 5em);
+    padding: .5em .7em;
+    background-color: var(--color-title);
+    color: white;
+    font-family: var(--font-subtitle);
+    font-size: .7em;
+}
+
+/*
+*******************************
+Night
+********************************
+*/
+
+.night {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url(https://images.pexels.com/photos/889545/pexels-photo-889545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.night .ed-container{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgba(0,0,0,.5);
+}
+
+.night-img img{
+    border: .5em solid rgb(221, 221, 221);
+}
+
+.night-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+.night-data-subtitle{
+    font-size: 1.875em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.night-data-text{
+    text-align: center;
+    color: white;
+}
+.night-data-button a{
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+/*
+*******************************
+Testimonial
+********************************
+*/
+.testimonial{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.testimonial-subtitle{
+    font-size: 2.125em;
+    text-transform: uppercase;
+}
+.testimonial-arrow a{
+    text-decoration: none;
+    padding: .2em .5em;
+    background-color: var(--color-white);
+    color: var(--color-title);
+    border: 1px solid var(--color-title);
+    border-radius: 2px;
+}
+.testimonial-arrow a:hover{
+    color: var(--color-white);
+    background-color: var(--color-title);
+}
+.testimonial-data-img{
+    background-image: url(https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-clip: content-box;
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%
+}
+.testimonial-data-text{
+    text-align: center;
+}
+.testimonial-data-author{
+    text-transform: uppercase;
+    color: var(--color-title);
+    letter-spacing: 1px;
+}
+/*
+*******************************
+Resrvation
+********************************
+*/
+.reservation{
+    margin-top: 5em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    background-image: url(https://images.pexels.com/photos/951290/pexels-photo-951290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.reservation-title{
+    color: var(--color-white);
+}
+.reservation-subtitle p{
+    font-size: 2.125em;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: var(--color-white);
+}
+.reservation-form{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgba(255, 255, 255, .8)
+}
+input:nth-child(n){
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+select:nth-child(n){
+    margin-bottom: 1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    text-transform: uppercase;
+}
+.reservation-form .submit{
+    letter-spacing: 1px;
+    color: white;
+    background-color: var(--color-title);
+    cursor: pointer;
+}
+/*
+*******************************
+Fin main.php
+********************************
+*/
+
+/*
+*******************************
+footer.php
+********************************
+*/
+.footer{
+    padding-top: 5em;
+    background-color: #222222;
+}
+.footer section:first-child{
+    padding-bottom: 3em;
+}
+.footer section:last-child{
+    border-top: 1px solid var(--color-text);
+}
+.foto-img{
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: -1px solid white;
+}
+.footer-logo-text{
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+
+}
+.footer-subtitle{
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: var(--font-text);
+    /* padding-bottom: 3em; */
+    /* padding-top: 3em; */
+}
+.footer-gallery{
+    padding: 0 .1em;
+    margin: 0;
+}
+.footer-gallery img{
+    margin: 0;
+}
+.footer-open p{
+    margin: 0;
+    font-family: var(--font-text);
+}
+.footer-open p:first-child{
+    color: white;
+}
+.footer-open p:last-child{
+    color: var(--color-text);
+    font-size: .8em;
 }
